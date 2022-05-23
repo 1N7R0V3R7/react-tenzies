@@ -46,7 +46,7 @@ export default function App() {
     return (
         <main className="bg-[#0b2434] w-full h-screen font-karla">
             {tenzies && <ReactConfetti />}
-            <div className="text-[#0b2434] bg-[#f5f5f5] rounded-xl absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 p-12 text-center w-[90%]">
+            <div className="text-[#0b2434] bg-[#f5f5f5] md:max-w-xl rounded-xl absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 p-12 text-center w-[90%]">
                 <div className="">
                     <h1 className="font-bold text-4xl mb-2">
                         Tenzies
